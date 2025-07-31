@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erick Martínez | De la Automatización al Impacto</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Poppins para títulos, Lato para cuerpo de texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome para iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <style>
+        /* Estilos personalizados y configuración de Tailwind */
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-section {
+            background-image: linear-gradient(rgba(13, 27, 42, 0.8), rgba(13, 27, 42, 0.8)), url('https://images.unsplash.com/photo-1593349480503-685d3a4c956a?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        /* Color de acento principal (Azul Cobalto) */
+        .accent-color {
+            background-color: #0047AB;
+        }
+        .accent-color-text {
+            color: #0047AB;
+        }
+        .accent-color-border {
+            border-color: #0047AB;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- ========= BLOQUE 1: HERO SECTION ========= -->
+    <header id="home" class="hero-section h-screen flex items-center justify-center text-white text-center p-6">
+        <div class="max-w-3xl">
+            <!-- Etiqueta de Instagram -->
+            <div class="mb-6">
+                <a href="https://www.instagram.com/Era.IA.con.Erick" target="_blank" class="inline-block bg-white/10 border border-white/20 backdrop-blur-sm text-white text-sm font-semibold py-2 px-4 rounded-full transition-transform duration-300 hover:scale-105 hover:bg-white/20">
+                    <i class="fa-brands fa-instagram mr-2"></i>Era.IA.con.Erick
+                </a>
+            </div>
+
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-4 animate-fade-in-down">
+                De la Automatización al Impacto.
+            </h1>
+            <h2 class="text-xl md:text-2xl font-semibold mb-6">
+                Inteligencia Artificial y Datos para llevar tus proyectos al siguiente nivel.
+            </h2>
+            <p class="max-w-xl mx-auto mb-8 text-gray-300">
+                Ayudo a profesionales y empresas a integrar la IA y el análisis de datos para innovar, automatizar y generar resultados tangibles.
+            </p>
+            <a href="#newsletter" class="accent-color hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300 ease-in-out transform hover:scale-105">
+                DESCUBRE CÓMO
+            </a>
+        </div>
+    </header>
+
+    <!-- ========= BLOQUE 2: EL PROBLEMA ========= -->
+    <section id="problema" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">¿La tecnología te complica más de lo que ayuda?</h2>
+            <p class="max-w-2xl mx-auto mb-12 text-gray-600">Buscas innovar y ser más eficiente, pero en el día a día, esto te resulta familiar:</p>
+            <div class="grid md:grid-cols-3 gap-12">
+                <!-- Columna 1 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-6 rounded-full shadow-lg mb-4">
+                        <i class="fa-solid fa-file-invoice text-4xl accent-color-text"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Procesos manuales</h3>
+                    <p class="text-gray-600">Inviertes horas en tareas repetitivas que una máquina podría hacer en segundos.</p>
+                </div>
+                <!-- Columna 2 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-6 rounded-full shadow-lg mb-4">
+                        <i class="fa-solid fa-robot text-4xl accent-color-text"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">La IA abruma</h3>
+                    <p class="text-gray-600">No sabes por dónde empezar o cómo aplicarla de forma práctica y rentable.</p>
+                </div>
+                <!-- Columna 3 -->
+                <div class="flex flex-col items-center">
+                    <div class="bg-white p-6 rounded-full shadow-lg mb-4">
+                        <i class="fa-solid fa-table-cells text-4xl accent-color-text"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Decisiones a ciegas</h3>
+                    <p class="text-gray-600">Acumulas datos pero tomas decisiones basadas en la intuición, no en la evidencia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========= BLOQUE 3: LA SOLUCIÓN / BIO (MODIFICADO) ========= -->
+    <section id="solucion" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <!-- Columna Izquierda: Diagrama de Venn -->
+                <div class="flex justify-center items-center min-h-[350px] p-4">
+                    <div class="relative w-72 h-72 md:w-80 md:h-80">
+                        <!-- Círculo 1: IT INNOVATION (Top Center) -->
+                        <div class="absolute flex items-center justify-center rounded-full border-2 border-blue-900 bg-blue-800 bg-opacity-80 text-white font-bold text-sm md:text-base shadow-lg transition-transform duration-300 hover:scale-105 w-44 h-44 md:w-48 md:h-48 top-0 left-1/2 -translate-x-1/2">
+                            <span class="text-center">IT<br>INNOVATION</span>
+                        </div>
+                        <!-- Círculo 2: IMPACT (Bottom Left) -->
+                        <div class="absolute flex items-center justify-center rounded-full border-2 border-blue-900 bg-blue-800 bg-opacity-80 text-white font-bold text-sm md:text-base shadow-lg transition-transform duration-300 hover:scale-105 w-44 h-44 md:w-48 md:h-48 bottom-0 left-0">
+                            <span>IMPACT</span>
+                        </div>
+                        <!-- Círculo 3: BUSINESS (Bottom Right) -->
+                        <div class="absolute flex items-center justify-center rounded-full border-2 border-blue-900 bg-blue-800 bg-opacity-80 text-white font-bold text-sm md:text-base shadow-lg transition-transform duration-300 hover:scale-105 w-44 h-44 md:w-48 md:h-48 bottom-0 right-0">
+                            <span>BUSINESS</span>
+                        </div>
+                         <!-- Centro del Diagrama -->
+                        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-white">
+                             <i class="fa-solid fa-bolt text-4xl opacity-90"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna Derecha: Texto -->
+                <div>
+                    <span class="accent-color-text font-bold uppercase tracking-wider">Mi Método</span>
+                    <h3 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Soy Erick Martínez. Cierro la brecha entre la tecnología y los resultados.</h3>
+                    <p class="text-gray-600 mb-4">
+                        Mi experiencia no es solo teórica. Como estratega y Co-fundador de <strong>Chingos de Impacto (Empresa B)</strong>, he aplicado la innovación para crear oportunidades reales y optimizar procesos complejos.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Mi pasión es desmitificar la tecnología. Como formador en bootcamps internacionales como <strong>Le Wagon</strong> y mentor en <strong>Mujer Digital</strong>, traduzco el potencial de la IA, Python y Power BI en herramientas prácticas para que tu causa o negocio crezca.
+                    </p>
+                    <a href="https://erick.website" target="_blank" class="inline-block border-2 accent-color-border accent-color-text font-bold py-3 px-8 rounded-lg text-lg transition duration-300 ease-in-out hover:accent-color hover:text-white">
+                        Conoce más de Erick
+                    </a>
+                </div>
+            </div>
+            <!-- Logos de Colaboradores -->
+            <div class="mt-20 text-center">
+                <h4 class="text-lg font-semibold text-gray-600 mb-6">He colaborado con organizaciones que lideran el cambio:</h4>
+                <div class="flex flex-wrap justify-center items-center gap-x-8 gap-y-4">
+                    <img src="https://placehold.co/120x50/CCCCCC/FFFFFF?text=USAID" alt="Logo USAID" class="h-10 opacity-60 hover:opacity-100 transition">
+                    <img src="https://placehold.co/120x50/CCCCCC/FFFFFF?text=Citibanamex" alt="Logo Citibanamex" class="h-10 opacity-60 hover:opacity-100 transition">
+                    <img src="https://placehold.co/120x50/CCCCCC/FFFFFF?text=Rainforest+Alliance" alt="Logo Rainforest Alliance" class="h-10 opacity-60 hover:opacity-100 transition">
+                    <img src="https://placehold.co/120x50/CCCCCC/FFFFFF?text=Le+Wagon" alt="Logo Le Wagon" class="h-8 opacity-60 hover:opacity-100 transition">
+                    <img src="https://placehold.co/120x50/CCCCCC/FFFFFF?text=Impact+Hub" alt="Logo Impact Hub" class="h-10 opacity-60 hover:opacity-100 transition">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========= BLOQUE 4: NEWSLETTER (CTA) ========= -->
+    <section id="newsletter" class="py-20 bg-gray-900 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <div class="max-w-2xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Únete a la "Era IA con Erick"</h2>
+                <p class="text-gray-300 mb-8">
+                    La comunidad que te lleva inteligencia artificial pero también inteligencia ancestral. <br>Únete y recibe
+                </p>
+                <ul class="text-left inline-block mb-8 space-y-2">
+                    <li><i class="fa-solid fa-check-circle text-blue-400 mr-2"></i><strong>Un Prompt de IA</strong> para ahorrarte horas en tareas manuales.</li>
+                    <li><i class="fa-solid fa-check-circle text-blue-400 mr-2"></i><strong>Un Truco de Data</strong> para tomar mejores decisiones.</li>
+                    <li><i class="fa-solid fa-check-circle text-blue-400 mr-2"></i><strong>Una Lección de Campo</strong> para evitar errores costosos.</li>
+                </ul>
+                <form action="#" method="POST" class="flex flex-col md:flex-row gap-4 max-w-lg mx-auto">
+                    <input type="text" name="name" placeholder="Tu nombre" required class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 text-white">
+                    <input type="email" name="email" placeholder="Tu mejor correo electrónico" required class="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-500 text-white">
+                    <button type="submit" class="w-full md:w-auto accent-color hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                        ¡UNIRME AHORA!
+                    </button>
+                </form>
+                <p class="text-gray-500 mt-4 text-sm">Cero spam. Prometido.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========= BLOQUE 5: FOOTER ========= -->
+    <footer class="bg-gray-800 text-gray-400 py-12">
+        <div class="container mx-auto px-6 text-center">
+            <p class="text-lg italic mb-6 max-w-2xl mx-auto">"La tecnología no es el fin, es el medio. El verdadero protagonista es el resultado que generas. Si estás listo, te acompaño."</p>
+            <p class="font-bold text-white mb-4">Erick Martínez</p>
+            <div class="flex justify-center space-x-6 mb-8">
+                <a href="https://www.linkedin.com/in/erickmartinezc/" target="_blank" class="text-2xl hover:text-white transition duration-300"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/Era.IA.con.Erick" target="_blank" class="text-2xl hover:text-white transition duration-300"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <p class="text-sm">&copy; 2025 Erick Martínez | Creado con 🧠 y 🤖 en CDMX</p>
+        </div>
+    </footer>
+
+    <script>
+        // Script para smooth scroll (opcional, ya que se usa `scroll-smooth` de Tailwind)
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>
